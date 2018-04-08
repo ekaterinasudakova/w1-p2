@@ -1,0 +1,84 @@
+body{
+	background-color: gold;
+	height: 100%;
+	margin:0;
+}
+.wrap{
+	position: fixed;
+	width: 90%;
+    height: 85%;
+    top: 4%;
+    left: 4%;
+    border: 1em dotted #111;
+}
+h1{
+	position: relative;
+	top: 21%;
+	left: 37%;
+/*	font-family: 'Ropa Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 6em;
+	letter-spacing: 2.5px;*/
+	background-image: url(../img/logo-01.svg);
+	background-repeat: no-repeat;
+	height: 9em;
+}
+h2{
+	font-family: 'Ropa Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 1;
+	letter-spacing: -.8px;
+	font-size: 2em;
+	color: black;
+}
+.left{
+	position: relative;
+	top: 43%;
+	left: -45%;
+	transform: rotate(90deg);
+}
+.right{
+	position: relative;
+	top: -78%;
+	left: 45%;
+	transform: rotate(-90deg);
+}
+.list{
+	position: relative;
+	top: -8.3%;
+	left: 31%;
+	width: 40%;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -3.6em;
+	margin-right: -1em;
+	margin-top: 2em;
+}
+.icons{
+	position:relative;
+	display: flex;
+	justify-content: space-between;
+	top: -69.7%;
+	left: 24%;
+	width: 54%;
+}
+.icon-01{
+	order:1;
+	background-image: url(../img/angel.svg);
+	background-repeat: no-repeat;
+	height: 4em;
+	width: 5em;
+}
+.icon-02{
+	background-image: url(../img/dvl.svg);
+	background-repeat: no-repeat;
+	height: 4em;
+	width: 5em;
+}
+
