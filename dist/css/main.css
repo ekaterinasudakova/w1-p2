@@ -9,7 +9,7 @@ body{
     height: 85%;
     top: 4%;
     left: 4%;
-    border: 1em double #111;
+    border: 1em dotted #111;
 }
 h1{
 	position: relative;
@@ -45,7 +45,7 @@ h2{
 }
 .list{
 	position: relative;
-	top: 1.7%;
+	top: -8.3%;
 	left: 31%;
 	width: 40%;
 	font-family: 'Open Sans', sans-serif;
